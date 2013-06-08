@@ -1,0 +1,43 @@
+.sliderwrapper{
+position: relative; /*leave as is*/
+overflow: hidden; /*leave as is*/
+border: 1px #999999 dashed;
+padding: 5px;
+width: 440px; /*width of featured content slider*/
+height: 120px;
+}
+
+
+
+.sliderwrapper .contentdiv{
+visibility: hidden; /*leave as is*/
+position: absolute; /*leave as is*/
+left: 0;  /*leave as is*/
+top: 0;  /*leave as is*/
+padding: 5px;
+background: white;
+width: 440px; /*width of content DIVs within slider. Total width should equal slider's inner width (390+5+5=400) */
+height: 100px;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+}
+
+.pagination{
+width: 400px; /*Width of pagination DIV. Total width should equal slider's outer width (400+10+10=420)*/
+text-align: right;
+background-color: white;
+padding: 5px 10px;
+}
+
+.pagination a{
+padding: 0 5px;
+text-decoration: none; 
+color: white;
+background: white;
+}
+
+.pagination a:hover, .pagination a.selected{
+color: white;
+background-color: white;
+}

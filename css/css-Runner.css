@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+/* template */
+body {
+	background-color: #1c529a;
+	background-image: url(../images/bg-Runner-blue.jpg);
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainframe {
+	width: 1000px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	clear: both;
+	
+}
+
+#topframe {
+	width: 1000px;
+	padding-top: 5px;
+	height: 67px;
+	background: url(../images/bg/bg-menu.png) bottom repeat-x;
+	
+}
+#logo {
+	width: 225px;
+	/* margin-left: 20px; */
+	float:left;
+	background:url(../images/logo.png) no-repeat;
+	height: 67px;
+}
+
+#menu {
+	float:right;
+	width:650px;
+	margin-top:12px;
+	height: 33px;
+}
+#menu ul {
+	list-style-type:none;
+	margin:0;
+	height: 35px;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-left:11px;
+}
+
+#menu ul li {
+	display:inline;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight:600;
+	
+}
+
+#menu ul li a {
+	color:#141414;
+	text-decoration: none;
+	padding-left:15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	display:block;
+	height: 28px;
+	float:left;
+	text-align:center;
+}
+.menulong {
+	width: 76px;
+}
+#menu ul li a:hover {
+	background: #A0A0A0;
+}
+
+#contentframe {
+	width:980px;
+	margin: 10px 10px 0px 10px;
+	height: auto;
+	min-height: 670px;
+	clear: both;
+}
+#banner {
+	width:	980px;
+	height: 400px;
+	margin-bottom: 10px;
+}
+	
+#header	{
+	width:1000px;
+	height: 46px;
+	background:url(../images/bg/bg-index.png) repeat-x;
+	margin-top: 10px;
+}
+
+#header-txt {
+	color: white;
+	font-size: 20px;
+	font-family: 'Arimo';
+	margin-left: 20px;
+	padding-top: 12px;
+
+}
+
+#content-left {
+	width: 755px;
+	height: auto;
+	min-height: 580px;
+	background:url(../images/bg/bg-contentbox-lightgrey.png);
+	margin-top:10px;
+	margin-left: 15px;
+	float:left;
+}
+
+
+#content-right {
+	width: 193px;
+	float:left;
+	margin-top: 10px;
+	margin-left: 10px;
+	height:auto;
+}
+
+#adv-email {
+	width: 193px;
+	height: 101px;
+	background:url(../images/banner/contactus.png) no-repeat;	
+}
+
+#MainContact {
+border-top: 1px dashed #FFF;
+#padding: 10px 15px 10px 0px;
+#FFFtext-align: right;
+#FFFline-height: 1.8em;
+color: #2e7a00;
+#margin-top: 15px;
+font-family: arial;
+font-size: 13px;
+}
+
+#adv-email a{
+	display: block;
+	width: 193px;
+	height: 101px;
+}
+
+#adv-package {
+	width: 193px;
+	height: 230px;
+	background:url(../images/banner/r-package.jpg) no-repeat right;
+	margin-top:10px;
+}
+
+#adv-eshop {
+	width: 193px;
+	height: 230px;
+	background:url(../images/banner/r-eshop.jpg) no-repeat right;
+	margin-top:10px;
+}
+
+#adv-package a, #adv-eshop a {
+	width: 193px;
+	height: 230px;
+	display: block;
+}
+.clear {
+	clear: both;
+	height: 20px;
+}
+#footer {
+	width: 980px;
+	height: 40px;	
+	padding: 8px 10px;
+	clear: both;
+}
+#footer-left, #footer-right {
+	width: 480px;
+	height:30px;
+	float:left;	
+	font-size: 10px;
+	font-family: arial;
+}
+#footer-left a, #footer-right a {
+	text-decoration: none;
+	color: black;	
+}
+#footer-right {
+	text-align:right;
+}
+
+/* main page  */
+#main-news {
+	width: 569px;
+	height: 250px;	
+	float: left;
+
+	
+}
+
+#main-news-header {
+	width:569px;
+	height: 27px;
+	background:url(../images/header/main-news.jpg) no-repeat;	
+}
+
+#main-news-content {
+	background:url(../images/bg/main-news-mid.jpg) repeat-y;
+	height: 170px;
+	width: 100%;
+	padding: 8px;
+}
+#news {
+	width: 550px;
+	font-size: 12px;
+	color: black;	
+	font-family: Lato;
+	overflow:auto;
+	height:170px;
+
+}
+
+#news a{
+	color: black;
+	font-size: 12px;
+	text-decoration: none;	
+}
+#news a:link{
+	text-decoration: underline;	
+}
+#main-news-bottom {
+	width: 100%;
+	height: 19px;
+	background:url(../images/bg/main-news-bottom.jpg) no-repeat;	
+}
+
+#main-advbox1 {
+	width: 189px;
+	height: 230px;
+	background: url(../images/banner/r-package.jpg) no-repeat;	
+	float: left;
+	margin-left: 15px;
+}
+
+#main-advbox1 a, #main-advbox2 a {
+	display: block;	
+	width: 189px;
+	height:230px;
+}
+
+#main-advbox2 {
+	width: 189px;
+	height: 230px;
+	background: url(../images/banner/r-eshop.jpg) no-repeat;	
+	float: left;
+	margin-left: 15px;
+}
+
+
+/* service */
+
+#description {
+	width: 775;
+	height: auto;
+	min-height: 140px;
+	margin: 15px;
+	background: url(../images/banner/service-decimg.png) no-repeat right center;
+}
+
+#description-txt {
+	margin-right: 140px;
+	font-family: arial;
+	font-size: 13px;
+	text-align:justify;
+}
+
+#service-layer {
+	width: 717px;
+	margin: 15px;
+	height: auto;	
+	clear: both;
+}
+
+#service-header {
+	width: 717px;
+	height: 52px;
+	background: url(../images/header/service-header.png) no-repeat;	
+}
+#service-header-txt {
+	font-family: 'Arimo';
+	color: white;
+	margin-left: 20px;
+	padding-top: 15px;
+	font-weight: 700;
+}
+
+#service-bg-layer {
+	width: 694px;
+	height: auto;
+	min-height: 400px;
+	background:url(../images/bg/bg-content-midgrey.png);
+	position:relative;
+	top: -7px;
+	left: 12px;
+	border: 0px;
+	clear: both;
+	
+}
+#serivce-left {
+	width: 483px;
+	height: auto;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: white;
+	float:left;
+	clear: both;
+}
+#service-left-txt {
+	font-family: arial;
+	font-size: 13px;
+	color: #333;
+	margin: 10px;
+	
+}
+#service-left-txt ul {
+	margin:0px;
+	padding: 0px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.service-title {
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: underline;
+	color:#146D7C;
+	margin-top:10px;
+}
+#service-right {
+	width: 182px;
+	height: auto;
+	background:url(../images/bg/service-submenu-bg.png) repeat-y;
+	float: left;
+	margin-left: 10px;
+	padding: 0px;
+	
+}
+#service-submenu {
+		width; 170px;
+		margin:8px;
+}
+
+#service-submenu ul {
+	list-style-type:none;
+	margin: 20px 0px;
+	padding:0px;
+	
+
+}
+#service-submenu ul li {
+	text-height: 30px;	
+}
+
+#service-submenu ul li a {
+	padding-left: 11px;
+	font-family: 'Oxygen';
+	font-size: 11px;
+	text-decoration: none;
+	color:black;
+	display: block;
+	margin-top:14px;
+
+}
+#service-submenu ul li a:hover {
+	text-decoration: underline;
+	color: #146D7C;
+}
+
+.service-on {
+	background:url(../images/bg/service-submenu-arrow.png) no-repeat left top;	
+
+}
+.service-on span{
+	color: #146D7C;
+	font-weight: 500;
+}
