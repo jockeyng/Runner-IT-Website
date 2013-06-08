@@ -78,7 +78,7 @@ include_once('../include/content-right.php');
 <!-- footer start -->
 
 <?
-include_once('../include/footer.php');
+include_once($_SERVER["DOCUMENT_ROOT"].'/include/footer.php');
 ?>
 
 <!-- footer end -->
