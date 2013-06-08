@@ -1,28 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Runner Consulting (Asia) Ltd providing several services: IT consulting, system maintainance, system integration, office surveillance, website development, skill transfer & training and system development." />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Lato|Kaushan+Script|Oxygen|Arimo:400,700' rel='stylesheet' type='text/css'>
-<title>Runner Consulting (Asia) Ltd : IT consulting, system maintance, system integation, and more - About Runner </title>
-<link rel="STYLESHEET" type="text/css" href="popup-contact.css">
-<link href="css/css-Runner.css" rel="stylesheet" type="text/css" />
-<link href="js/facefiles/facebox.css" media="screen" rel="stylesheet" type="text/css" />
-<script src="js/facefiles/jquery.js" type="text/javascript"></script>
-
-<script src="js/facefiles/facebox.js" type="text/javascript"></script>
 
 
-<script type="text/javascript">
+<?
+    $title = "About Runner";
+    include($_SERVER["DOCUMENT_ROOT"].'/include/header.php');
+?>
 
-    jQuery(document).ready(function($) {
 
-      $('a[rel*=facebox]').facebox()
-
-    })
-
-</script>
-</head>
 
 <body onload="javascript:fg_hideform('fg_formContainer','fg_backgroundpopup');">
 <!--mainframe start -->
@@ -30,7 +13,7 @@
 <!-- top frame start -->
 
 <?
-include_once('include/topframe.php');
+include_once($_SERVER["DOCUMENT_ROOT"].'include/topframe.php');
 ?>
 
 <!-- header start -->

@@ -86,7 +86,7 @@ include_once('../include/footer.php');
 <!-- mainframe end -->
 
 <?
-include_once('../include/javascript.php');
+include_once($_SERVER["DOCUMENT_ROOT"].'/include/javascript.php');
 ?>
 
 </body>
