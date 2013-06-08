@@ -5,6 +5,9 @@
 
 <link href="/js/facefiles/facebox.css" media="screen" rel="stylesheet" type="text/css" /> 
 
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Lato|Kaushan+Script|Oxygen|Arimo:400,700' rel='stylesheet' type='text/css'>
+
+
 <link rel="STYLESHEET" type="text/css" href="/popup-contact.css">
 
 <link href="/css/css-Runner.css" rel="stylesheet" type="text/css" />
